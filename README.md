@@ -1,6 +1,6 @@
 # Oak Grove
 
-Create problem sets with support for multiple solutions, tags, links and code.
+Create problem sets with multiple solutions, tags, links and code.
 
 ## Features
 
