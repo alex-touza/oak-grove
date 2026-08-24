@@ -1,0 +1,15 @@
+[package]
+name = "oak-grove"
+version = "0.1.1"
+entrypoint = "lib.typ"
+authors = ["Àlex Touza"]
+license = "MIT"
+description = "Create problem sets with support for multiple solutions, tags, links and code."
+repository = "https://github.com/alex-touza/oak-grove"
+categories = ["model", "scripting"]
+disciplines = ["computer-science", "education"]
+
+[tool.tyler]
+srcdir = "src"
+outdir = "dist"
+ignore = []
