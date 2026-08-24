@@ -109,19 +109,10 @@ See the [examples](examples) directory.
 - [`tags.typ`](./examples/tags.typ)
 - [`reading-files/main.typ`](./examples/reading-files/main.typ)
 
+## License
 
-## Publishing
+MIT
 
-Before publishing to Typst Universe:
+## Author
 
-1. Fill in package metadata in `typst.toml` and make sure the package name is acceptable for Universe.
-2. Add real documentation to this README and keep `LICENSE` in the package root.
-3. Run `tyler check` to validate the manifest and package layout.
-4. Run `tyler build -i` to install and test locally.
-5. Run `tyler build -p` when you are ready to prepare a submission to `typst/packages`.
-
-References:
-
-- Universe: https://typst.app/universe/
-- Package manifest rules: https://github.com/typst/packages/blob/main/docs/manifest.md
-- Package repository: https://github.com/typst/packages
+Àlex Touza
