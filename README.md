@@ -15,7 +15,7 @@ Create problem sets with support for multiple solutions, tags, links and code.
 Here's a short but complete example:
 
 ```typst
-#import "@local/oak-grove:0.1.0" as oak
+#import "@preview/oak-grove:0.1.0" as oak
 
 #show: oak.set-config(
   read-func: (filename) => read(filename),
