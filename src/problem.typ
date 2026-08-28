@@ -29,6 +29,8 @@
 
     e.field("color", e.types.option(color), named: true, default: none),
     e.field("author", e.types.option(str), named: true, default: none),
+
+    e.field("meta", e.types.any, named: true, default: none)
   ),
   construct: default-constructor => (..args) => {
     let args-pos = args.pos()
